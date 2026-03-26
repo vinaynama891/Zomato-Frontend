@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import { useParams, useNavigate } from 'react-router-dom'
 import axios from 'axios'
 
-const API_BASE = 'http://localhost:3000/api'
+const API_BASE = 'https://zomato-backend-fjbb.onrender.com/api'
 
 const StoreView = () => {
   const { id } = useParams()
