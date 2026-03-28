@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import axios from 'axios'
 
-const API_BASE = 'http://zomato-backend-1-4edy.onrender.com/api'
+const API_BASE = 'https://zomato-backend-3-oxfi.onrender.com/api'
 
 const UserDashboard = () => {
   const navigate = useNavigate()

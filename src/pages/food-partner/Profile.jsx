@@ -3,7 +3,7 @@ import { useParams, useNavigate, NavLink } from 'react-router-dom'
 import axios from 'axios'
 import Cookies from 'js-cookie'
 
-const API_BASE = 'http://localhost:3000/api'
+const API_BASE = 'https://zomato-backend-3-oxfi.onrender.com/api'
 
 const Profile = () => {
   const { id } = useParams()
