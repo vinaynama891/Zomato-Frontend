@@ -17,7 +17,7 @@ const FoodPartnerLogin = () => {
     const password = e.target.partnerPassword.value;
 
     try {
-      const response = await axios.post("https://zomato-backend-3-oxfi.onrender.com/api/auth/food-partner/login", {
+      const response = await axios.post("https://zomato-backend-4-vn6v.onrender.com/api/auth/food-partner/login", {
         email,
         password
       }, { withCredentials: true });

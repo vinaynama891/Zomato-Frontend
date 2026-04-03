@@ -17,7 +17,7 @@ const UserRegister = () => {
   const password = e.target.password.value;
 
   try {
-    const response = await axios.post("https://zomato-backend-3-oxfi.onrender.com/api/auth/user/register",{
+    const response = await axios.post("https://zomato-backend-4-vn6v.onrender.com/api/auth/user/register",{
       fullName: `${firstName} ${lastName}`.trim(),
       email,
       password

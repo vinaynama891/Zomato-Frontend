@@ -4,7 +4,7 @@ import axios from "axios";
 import im1 from "../../assets/SwadStream.png";
 import im2 from "../../assets/banner.png";
 
-const API_BASE = "https://zomato-backend-3-oxfi.onrender.com/api";
+const API_BASE = "https://zomato-backend-4-vn6v.onrender.com//api";
 
 const Dashboard = () => {
   const navigate = useNavigate();

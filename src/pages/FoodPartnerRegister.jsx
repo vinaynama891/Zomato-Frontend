@@ -76,7 +76,7 @@ const FoodPartnerRegister = () => {
   formData.append('profilePhoto', profilePhoto);
 
   try {
-    const response = await axios.post("https://zomato-backend-3-oxfi.onrender.com/api/auth/food-partner/register", formData, {
+    const response = await axios.post("https://zomato-backend-4-vn6v.onrender.com/api/auth/food-partner/register", formData, {
       withCredentials: true,
       headers: {
         'Content-Type': 'multipart/form-data'

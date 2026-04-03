@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { useParams, useNavigate } from 'react-router-dom'
 import axios from 'axios'
 
-const API_BASE = 'https://zomato-backend-3-oxfi.onrender.com/api'
+const API_BASE = 'https://zomato-backend-4-vn6v.onrender.com//api'
 
 const Restaurant = () => {
   const { id } = useParams()

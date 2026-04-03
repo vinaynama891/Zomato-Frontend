@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from 'react'
 import axios from 'axios'
 import { useNavigate } from 'react-router-dom'
 
-const API_BASE = 'https://zomato-backend-3-oxfi.onrender.com/api'
+const API_BASE = 'https://zomato-backend-4-vn6v.onrender.com//api'
 
 const shuffleArray = (array) => {
   const shuffled = [...array];

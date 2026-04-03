@@ -62,12 +62,12 @@ const CreateFood = () => {
         formData.append("video", videoFile);
 
         try {
-            const response = await axios.post("https://zomato-backend-3-oxfi.onrender.com/api/food/reel/upload", formData, {
+            const response = await axios.post("https://zomato-backend-4-vn6v.onrender.com//api/food/reel/upload", formData, {
                 withCredentials: true,
             });
 
             console.log(response.data);
-            const meRes = await axios.get("https://zomato-backend-3-oxfi.onrender.com/api/auth/food-partner/me", {
+            const meRes = await axios.get("https://zomato-backend-4-vn6v.onrender.com/api/auth/food-partner/me", {
                 withCredentials: true,
             });
             const meId = meRes?.data?.foodPartner?._id;
